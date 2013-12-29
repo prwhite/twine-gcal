@@ -1,0 +1,5 @@
+nohup.out
+node_modules
+*.pem
+*.p12
+client_secret_*
