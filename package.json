@@ -1,0 +1,28 @@
+{
+  "name": "twine-gcal",
+  "version": "0.0.1",
+  "description": "An app to turn pings from a twine device into gcal events",
+  "main": "app01.js",
+  "dependencies": {
+    "express": "~3.4.7",
+    "google-calendar": "~1.3.1",
+    "google-oauth-serviceaccount": "~0.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/prwhite/twine-gcal.git"
+  },
+  "author": "Payton R White",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/prwhite/twine-gcal/issues"
+  },
+  "homepage": "https://github.com/prwhite/twine-gcal",
+  "engines": {
+    "node": "0.10.x"
+}
+}
