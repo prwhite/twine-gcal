@@ -232,6 +232,10 @@ app.get ( "/bracesin", function ( req, res ) {
     return res.send ( "in" );
 });
 
+app.get ( "/", function ( req, res ) {
+    return res.send ( "alive" );
+});
+
 // run express listener
 var port = process.env.PORT || 8026;
 console.log ( "Listening on port", port );
